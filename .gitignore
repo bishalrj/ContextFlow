@@ -1,0 +1,21 @@
+# Virtual Environments
+venv/
+venv310/
+.venv/
+env/
+
+# Environment Variables & Secrets
+.env
+.env.local
+
+# Local Tracking Logs & Databases
+telemetry_logs.csv
+*.faiss
+*.pkl
+*.json
+
+# Python system bloat
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
